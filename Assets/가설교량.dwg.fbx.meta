@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: 27671f818871c584fa7b9c6ec5e5371f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: '3D View: {3D}'
+    100002: Import Symbol location <Not Shared> [202029]
+    100004: Import Symbol location <Not Shared> [202029]_[201990]
+    100006: Import Symbol location <Not Shared> [202029]_[201991]
+    100008: Import Symbol location <Not Shared> [202029]_[201992]
+    100010: Import Symbol location <Not Shared> [202029]_[201993]
+    100012: Import Symbol location <Not Shared> [202029]_[201994]
+    100014: Import Symbol location <Not Shared> [202029]_[201995]
+    100016: Import Symbol location <Not Shared> [202029]_[201996]
+    100018: Import Symbol location <Not Shared> [202029]_[201997]
+    100020: Import Symbol location <Not Shared> [202029]_[201998]
+    100022: Import Symbol location <Not Shared> [202029]_[201999]
+    100024: Import Symbol location <Not Shared> [202029]_[202000]
+    100026: Import Symbol location <Not Shared> [202029]_[202001]
+    100028: Import Symbol location <Not Shared> [202029]_[202002]
+    100030: Import Symbol location <Not Shared> [202029]_[202003]
+    100032: Import Symbol location <Not Shared> [202029]_[202004]
+    100034: Import Symbol location <Not Shared> [202029]_[202005]
+    100036: Import Symbol location <Not Shared> [202029]_[202006]
+    100038: Import Symbol location <Not Shared> [202029]_[202007]
+    100040: Import Symbol location <Not Shared> [202029]_[202008]
+    100042: Import Symbol location <Not Shared> [202029]_[202009]
+    100044: Import Symbol location <Not Shared> [202029]_[202010]
+    100046: Import Symbol location <Not Shared> [202029]_[202011]
+    100048: Import Symbol location <Not Shared> [202029]_[202012]
+    100050: Import Symbol location <Not Shared> [202029]_[202013]
+    100052: Import Symbol location <Not Shared> [202029]_[202014]
+    100054: Import Symbol location <Not Shared> [202029]_[202015]
+    100056: Import Symbol location <Not Shared> [202029]_[202016]
+    100058: Import Symbol location <Not Shared> [202029]_[202017]
+    100060: Import Symbol location <Not Shared> [202029]_[202018]
+    100062: Import Symbol location <Not Shared> [202029]_[202019]
+    100064: Import Symbol location <Not Shared> [202029]_[202020]
+    100066: Level Level 1 [13071]
+    100068: Level Level 2 [15913]
+    100070: //RootNode
+    400000: '3D View: {3D}'
+    400002: Import Symbol location <Not Shared> [202029]
+    400004: Import Symbol location <Not Shared> [202029]_[201990]
+    400006: Import Symbol location <Not Shared> [202029]_[201991]
+    400008: Import Symbol location <Not Shared> [202029]_[201992]
+    400010: Import Symbol location <Not Shared> [202029]_[201993]
+    400012: Import Symbol location <Not Shared> [202029]_[201994]
+    400014: Import Symbol location <Not Shared> [202029]_[201995]
+    400016: Import Symbol location <Not Shared> [202029]_[201996]
+    400018: Import Symbol location <Not Shared> [202029]_[201997]
+    400020: Import Symbol location <Not Shared> [202029]_[201998]
+    400022: Import Symbol location <Not Shared> [202029]_[201999]
+    400024: Import Symbol location <Not Shared> [202029]_[202000]
+    400026: Import Symbol location <Not Shared> [202029]_[202001]
+    400028: Import Symbol location <Not Shared> [202029]_[202002]
+    400030: Import Symbol location <Not Shared> [202029]_[202003]
+    400032: Import Symbol location <Not Shared> [202029]_[202004]
+    400034: Import Symbol location <Not Shared> [202029]_[202005]
+    400036: Import Symbol location <Not Shared> [202029]_[202006]
+    400038: Import Symbol location <Not Shared> [202029]_[202007]
+    400040: Import Symbol location <Not Shared> [202029]_[202008]
+    400042: Import Symbol location <Not Shared> [202029]_[202009]
+    400044: Import Symbol location <Not Shared> [202029]_[202010]
+    400046: Import Symbol location <Not Shared> [202029]_[202011]
+    400048: Import Symbol location <Not Shared> [202029]_[202012]
+    400050: Import Symbol location <Not Shared> [202029]_[202013]
+    400052: Import Symbol location <Not Shared> [202029]_[202014]
+    400054: Import Symbol location <Not Shared> [202029]_[202015]
+    400056: Import Symbol location <Not Shared> [202029]_[202016]
+    400058: Import Symbol location <Not Shared> [202029]_[202017]
+    400060: Import Symbol location <Not Shared> [202029]_[202018]
+    400062: Import Symbol location <Not Shared> [202029]_[202019]
+    400064: Import Symbol location <Not Shared> [202029]_[202020]
+    400066: Level Level 1 [13071]
+    400068: Level Level 2 [15913]
+    400070: //RootNode
+    2000000: '3D View: {3D}'
+    2100000: No Name
+    2300000: Import Symbol location <Not Shared> [202029]_[201990]
+    2300002: Import Symbol location <Not Shared> [202029]_[201991]
+    2300004: Import Symbol location <Not Shared> [202029]_[201992]
+    2300006: Import Symbol location <Not Shared> [202029]_[201993]
+    2300008: Import Symbol location <Not Shared> [202029]_[201994]
+    2300010: Import Symbol location <Not Shared> [202029]_[201995]
+    2300012: Import Symbol location <Not Shared> [202029]_[201996]
+    2300014: Import Symbol location <Not Shared> [202029]_[201997]
+    2300016: Import Symbol location <Not Shared> [202029]_[201998]
+    2300018: Import Symbol location <Not Shared> [202029]_[201999]
+    2300020: Import Symbol location <Not Shared> [202029]_[202000]
+    2300022: Import Symbol location <Not Shared> [202029]_[202001]
+    2300024: Import Symbol location <Not Shared> [202029]_[202002]
+    2300026: Import Symbol location <Not Shared> [202029]_[202003]
+    2300028: Import Symbol location <Not Shared> [202029]_[202004]
+    2300030: Import Symbol location <Not Shared> [202029]_[202005]
+    2300032: Import Symbol location <Not Shared> [202029]_[202006]
+    2300034: Import Symbol location <Not Shared> [202029]_[202007]
+    2300036: Import Symbol location <Not Shared> [202029]_[202008]
+    2300038: Import Symbol location <Not Shared> [202029]_[202009]
+    2300040: Import Symbol location <Not Shared> [202029]_[202010]
+    2300042: Import Symbol location <Not Shared> [202029]_[202011]
+    2300044: Import Symbol location <Not Shared> [202029]_[202012]
+    2300046: Import Symbol location <Not Shared> [202029]_[202013]
+    2300048: Import Symbol location <Not Shared> [202029]_[202014]
+    2300050: Import Symbol location <Not Shared> [202029]_[202015]
+    2300052: Import Symbol location <Not Shared> [202029]_[202016]
+    2300054: Import Symbol location <Not Shared> [202029]_[202017]
+    2300056: Import Symbol location <Not Shared> [202029]_[202018]
+    2300058: Import Symbol location <Not Shared> [202029]_[202019]
+    2300060: Import Symbol location <Not Shared> [202029]_[202020]
+    2300062: Level Level 1 [13071]
+    2300064: Level Level 2 [15913]
+    3300000: Import Symbol location <Not Shared> [202029]_[201990]
+    3300002: Import Symbol location <Not Shared> [202029]_[201991]
+    3300004: Import Symbol location <Not Shared> [202029]_[201992]
+    3300006: Import Symbol location <Not Shared> [202029]_[201993]
+    3300008: Import Symbol location <Not Shared> [202029]_[201994]
+    3300010: Import Symbol location <Not Shared> [202029]_[201995]
+    3300012: Import Symbol location <Not Shared> [202029]_[201996]
+    3300014: Import Symbol location <Not Shared> [202029]_[201997]
+    3300016: Import Symbol location <Not Shared> [202029]_[201998]
+    3300018: Import Symbol location <Not Shared> [202029]_[201999]
+    3300020: Import Symbol location <Not Shared> [202029]_[202000]
+    3300022: Import Symbol location <Not Shared> [202029]_[202001]
+    3300024: Import Symbol location <Not Shared> [202029]_[202002]
+    3300026: Import Symbol location <Not Shared> [202029]_[202003]
+    3300028: Import Symbol location <Not Shared> [202029]_[202004]
+    3300030: Import Symbol location <Not Shared> [202029]_[202005]
+    3300032: Import Symbol location <Not Shared> [202029]_[202006]
+    3300034: Import Symbol location <Not Shared> [202029]_[202007]
+    3300036: Import Symbol location <Not Shared> [202029]_[202008]
+    3300038: Import Symbol location <Not Shared> [202029]_[202009]
+    3300040: Import Symbol location <Not Shared> [202029]_[202010]
+    3300042: Import Symbol location <Not Shared> [202029]_[202011]
+    3300044: Import Symbol location <Not Shared> [202029]_[202012]
+    3300046: Import Symbol location <Not Shared> [202029]_[202013]
+    3300048: Import Symbol location <Not Shared> [202029]_[202014]
+    3300050: Import Symbol location <Not Shared> [202029]_[202015]
+    3300052: Import Symbol location <Not Shared> [202029]_[202016]
+    3300054: Import Symbol location <Not Shared> [202029]_[202017]
+    3300056: Import Symbol location <Not Shared> [202029]_[202018]
+    3300058: Import Symbol location <Not Shared> [202029]_[202019]
+    3300060: Import Symbol location <Not Shared> [202029]_[202020]
+    3300062: Level Level 1 [13071]
+    3300064: Level Level 2 [15913]
+    4300000: Import Symbol location <Not Shared> [202029]_[201990]
+    4300002: Import Symbol location <Not Shared> [202029]_[201991]
+    4300004: Import Symbol location <Not Shared> [202029]_[201992]
+    4300006: Import Symbol location <Not Shared> [202029]_[201993]
+    4300008: Import Symbol location <Not Shared> [202029]_[201994]
+    4300010: Import Symbol location <Not Shared> [202029]_[201995]
+    4300012: Import Symbol location <Not Shared> [202029]_[201996]
+    4300014: Import Symbol location <Not Shared> [202029]_[201997]
+    4300016: Import Symbol location <Not Shared> [202029]_[201998]
+    4300018: Import Symbol location <Not Shared> [202029]_[201999]
+    4300020: Import Symbol location <Not Shared> [202029]_[202000]
+    4300022: Import Symbol location <Not Shared> [202029]_[202001]
+    4300024: Import Symbol location <Not Shared> [202029]_[202002]
+    4300026: Import Symbol location <Not Shared> [202029]_[202003]
+    4300028: Import Symbol location <Not Shared> [202029]_[202004]
+    4300030: Import Symbol location <Not Shared> [202029]_[202005]
+    4300032: Import Symbol location <Not Shared> [202029]_[202006]
+    4300034: Import Symbol location <Not Shared> [202029]_[202007]
+    4300036: Import Symbol location <Not Shared> [202029]_[202008]
+    4300038: Import Symbol location <Not Shared> [202029]_[202009]
+    4300040: Import Symbol location <Not Shared> [202029]_[202010]
+    4300042: Import Symbol location <Not Shared> [202029]_[202011]
+    4300044: Import Symbol location <Not Shared> [202029]_[202012]
+    4300046: Import Symbol location <Not Shared> [202029]_[202013]
+    4300048: Import Symbol location <Not Shared> [202029]_[202014]
+    4300050: Import Symbol location <Not Shared> [202029]_[202015]
+    4300052: Import Symbol location <Not Shared> [202029]_[202016]
+    4300054: Import Symbol location <Not Shared> [202029]_[202017]
+    4300056: Import Symbol location <Not Shared> [202029]_[202018]
+    4300058: Import Symbol location <Not Shared> [202029]_[202019]
+    4300060: Import Symbol location <Not Shared> [202029]_[202020]
+    4300062: Level Level 1 [13071]
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 7dbf8ec3145fdab40933a90238615949, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

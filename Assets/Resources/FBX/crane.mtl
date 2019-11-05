@@ -1,0 +1,160 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 15.11.2012 21:41:34
+
+newmtl CraneMetalLight
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.1980 0.1980 0.1980
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Phillip\Desktop\projects\libary\cranes\YardCrane\Texture\metal-texture-Tiled.jpg
+	map_Kd C:\Users\Phillip\Desktop\projects\libary\cranes\YardCrane\Texture\metal-texture-Tiled.jpg
+
+newmtl 02___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl CraneWhite
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.1980 0.1980 0.1980
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Phillip\Desktop\projects\libary\cranes\YardCrane\Texture\White_UDK.bmp
+	map_Kd C:\Users\Phillip\Desktop\projects\libary\cranes\YardCrane\Texture\White_UDK.bmp
+
+newmtl CraneRed
+	Ns 70.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.6120 0.6120 0.6120
+	Ke 0.0000 0.0000 0.0000
+	map_refl Map__486_Reflect_Refract.tga
+
+newmtl CraneBlack
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.1980 0.1980 0.1980
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Phillip\Desktop\projects\libary\cranes\YardCrane\Texture\Black_udk.bmp
+	map_Kd C:\Users\Phillip\Desktop\projects\libary\cranes\YardCrane\Texture\Black_udk.bmp
+
+newmtl CraneWire
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.1980 0.1980 0.1980
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Phillip\Desktop\projects\libary\cranes\YardCrane\Texture\wire_Diff.bmp
+	map_Kd C:\Users\Phillip\Desktop\projects\libary\cranes\YardCrane\Texture\wire_Diff.bmp
+	map_bump -bm 0.3000 Map__484_Normal_Bump.tga
+
+newmtl wire_088177027
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.3451 0.6941 0.1059
+	Kd 0.3451 0.6941 0.1059
+	Ks 0.3500 0.3500 0.3500
+
+newmtl CraneDiamoundPlate
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.1980 0.1980 0.1980
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Phillip\Desktop\projects\libary\cranes\YardCrane\Texture\metal%20grate%20banner.jpg
+	map_Kd C:\Users\Phillip\Desktop\projects\libary\cranes\YardCrane\Texture\metal%20grate%20banner.jpg
+
+newmtl CraneYellowChipped
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.1980 0.1980 0.1980
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Phillip\Desktop\projects\libary\cranes\YardCrane\Texture\Yellow_chipped_UDK.bmp
+	map_Kd C:\Users\Phillip\Desktop\projects\libary\cranes\YardCrane\Texture\Yellow_chipped_UDK.bmp
+
+newmtl CraneMetalDark
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.1980 0.1980 0.1980
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Phillip\Desktop\projects\libary\cranes\YardCrane\Texture\metal-texture-Tiled_dark.jpg
+	map_Kd C:\Users\Phillip\Desktop\projects\libary\cranes\YardCrane\Texture\metal-texture-Tiled_dark.jpg
+
+newmtl CraneYellow
+	Ns 59.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.1980 0.1980 0.1980
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Phillip\Desktop\projects\libary\cranes\YardCrane\Texture\Yellow_ODK.bmp
+	map_Kd C:\Users\Phillip\Desktop\projects\libary\cranes\YardCrane\Texture\Yellow_ODK.bmp
+
+newmtl wire_006135113
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.0235 0.5294 0.4431
+	Kd 0.0235 0.5294 0.4431
+	Ks 0.3500 0.3500 0.3500
