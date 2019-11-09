@@ -95,7 +95,7 @@ public class CraneControl : MonoBehaviour
         //picker.transform.rotation = Quaternion.LookRotation(Vector3.left, Vector3.right);
         if (anchorUp || Input.GetKey(KeyCode.F1))
         {
-            if (pickerPosition.transform.position.y < picker.transform.position.y)
+            if (pickerPosition.transform.position.y < picker.transform.position.y+300)
             {
                 Debug.Log("Out of Movable range");
                 picker.transform.position = new Vector3(pickerPosition.position.x, pickerPosition.position.y - anchor, pickerPosition.position.z);

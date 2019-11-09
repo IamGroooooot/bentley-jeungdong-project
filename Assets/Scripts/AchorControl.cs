@@ -11,23 +11,26 @@ public class AchorControl : MonoBehaviour
 
     }
     bool once = true;
+
     // Update is called once per frame
     void Update()
     {
         if (myTarget != null && once)
         {
             myTarget.transform.SetParent(transform);
-         
             once = false;
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        myTarget = other.transform.parent.gameObject;
+        if (other.CompareTag("target"))
+        {
+            myTarget = other.transform.parent.gameObject;
 
-        Debug.Log("catched " + myTarget.name);
-        other.GetComponent<Collider>().enabled = false;
+            Debug.Log("catched " + myTarget.name);
+            other.GetComponent<Collider>().enabled = false;
+        }
     }
     private void OnTriggerStay(Collider other)
     {

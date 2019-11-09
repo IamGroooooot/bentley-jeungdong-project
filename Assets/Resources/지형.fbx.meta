@@ -28,6 +28,10 @@ ModelImporter:
     4300000: Import Symbol location <Not Shared> [202309]
     4300002: Import Symbol location <Not Shared> [202309]_[202008]
     4300004: Level Level 1 [13071]
+    6400000: Import Symbol location <Not Shared> [202309]
+    6400002: Import Symbol location <Not Shared> [202309]_[202008]
+    6400004: Level Level 1 [13071]
+    6400006: Level Level 2 [15913]
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -61,7 +65,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
