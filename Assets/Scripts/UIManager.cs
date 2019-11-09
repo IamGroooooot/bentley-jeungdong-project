@@ -64,6 +64,7 @@ public class UIManager : MonoBehaviour
 
     public void onToggleTopView()
     {
+        CameraViewCtrl.instance.SwitchCamera();
         enableTopView = !enableTopView;
         Debug.Log(enableTopView);
     }
