@@ -564,7 +564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SettingPanel: {fileID: 1228318049}
-  SettingBtn: {fileID: 0}
+  SettingBtn: {fileID: 1630609672}
   showProjectedAnchor: 0
   ShowCircularRange: 0
   showKg: 0
@@ -572,7 +572,7 @@ MonoBehaviour:
   defaultMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  kgMask:
+  topviewMask:
     serializedVersion: 2
     m_Bits: 800
   projectedMask:
@@ -1266,8 +1266,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 20000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 4000
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1290,13 +1290,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837181219}
-  m_LocalRotation: {x: 0.43085134, y: 0.539693, z: -0.45566365, w: 0.5616665}
-  m_LocalPosition: {x: -2922.9282, y: 9189.771, z: -7962.7256}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: -1392, y: 8646, z: -7953}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!1 &893573497
 GameObject:
   m_ObjectHideFlags: 0

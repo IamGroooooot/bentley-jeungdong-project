@@ -14,7 +14,7 @@ public class UIManager : MonoBehaviour
     public bool enableTopView = false;
 
     public LayerMask defaultMask;
-    public LayerMask kgMask;
+    public LayerMask topviewMask;
     public LayerMask projectedMask;
 
     private void Awake()
@@ -61,10 +61,16 @@ public class UIManager : MonoBehaviour
     public void onToggleShowCircularRange()
     {
         ShowCircularRange = !ShowCircularRange;
-        if(ShowCircularRange)
-            CameraViewCtrl.instance.topCamera.GetComponent<Camera>().cullingMask = kgMask;
+        if (ShowCircularRange)
+        {
+            CameraViewCtrl.instance.topCamera.GetComponent<Camera>().cullingMask = topviewMask;
+            CameraViewCtrl.instance.mainCamera.GetComponent<Camera>().cullingMask = topviewMask;
+        }
         else
+        {
             CameraViewCtrl.instance.topCamera.GetComponent<Camera>().cullingMask = defaultMask;
+            CameraViewCtrl.instance.mainCamera.GetComponent<Camera>().cullingMask = defaultMask;
+        }
         Debug.Log(ShowCircularRange);
     }
 
