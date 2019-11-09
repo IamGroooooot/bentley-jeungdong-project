@@ -27,7 +27,7 @@ public class ShootRay : MonoBehaviour
         {
             Debug.DrawRay(transform.position, Vector3.down * hit.distance, Color.yellow);
             ProjectedAnchor.transform.position = hit.point;
-            Debug.Log("Did Hit: "+hit.collider.name);
+            //Debug.Log("Did Hit: "+hit.collider.name);
         }
         else
         {

@@ -26,10 +26,12 @@ public class AnchorControl : MonoBehaviour
     {
         if (other.CompareTag("target"))
         {
-            myTarget = other.transform.parent.gameObject;
+            myTarget = other.transform.parent.parent.gameObject;
 
             Debug.Log("catched " + myTarget.name);
             other.GetComponent<Collider>().enabled = false;
+
+
         }
     }
     private void OnTriggerStay(Collider other)
