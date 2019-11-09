@@ -26,8 +26,6 @@ public class CraneControl : MonoBehaviour
     public float spinSpeed = 20f;
     public float anchorSpeed = 10f;
 
-
-
     // Use this for initialization
     private void Start()
     {
@@ -42,7 +40,6 @@ public class CraneControl : MonoBehaviour
         //pickerPosition = GameObject.FindGameObjectWithTag("PickerPosition").transform;
         btmMovable = transform.GetChild(0);
         //btmMovable = GameObject.FindGameObjectWithTag("BottomMovable").transform;
-
     }
 
     // Update is called once per frame
@@ -51,9 +48,6 @@ public class CraneControl : MonoBehaviour
         TurnCtrl();
         PickerRotationCtrl();
         AnchorCtrl();
-
-        
-
     }
 
     void TurnCtrl()
@@ -78,12 +72,18 @@ public class CraneControl : MonoBehaviour
 
         if (pickerDown || Input.GetKey(KeyCode.UpArrow))
         {
+            if (btmMovable.transform.position.y > picker.transform.position.y)
+            {
+                Debug.Log("Out of Movable range");
+                return;
+            }
             pickerUp = false;
             pickerPivot.transform.Rotate(dirVector * -spinSpeed * Time.deltaTime);
-
         }
+
         if (pickerUp || Input.GetKey(KeyCode.DownArrow))
         {
+            
             pickerDown = false;
             pickerPivot.transform.Rotate(dirVector * spinSpeed * Time.deltaTime);
         }
@@ -91,14 +91,28 @@ public class CraneControl : MonoBehaviour
 
     void AnchorCtrl()
     {
-        // look down
+        //look down
         //picker.transform.rotation = Quaternion.LookRotation(Vector3.left, Vector3.right);
         if (anchorUp || Input.GetKey(KeyCode.F1))
         {
+            if (pickerPosition.transform.position.y < picker.transform.position.y)
+            {
+                Debug.Log("Out of Movable range");
+                picker.transform.position = new Vector3(pickerPosition.position.x, pickerPosition.position.y - anchor, pickerPosition.position.z);
+
+                return;
+            }
             anchor -= anchorSpeed * Time.deltaTime;
         }
         if (anchorDown || Input.GetKey(KeyCode.F2))
         {
+            if (btmMovable.transform.position.y-200 > picker.transform.position.y)
+            {
+                Debug.Log("Out of Movable range");
+                picker.transform.position = new Vector3(pickerPosition.position.x, pickerPosition.position.y - anchor, pickerPosition.position.z);
+
+                return;
+            }
             anchor += anchorSpeed * Time.deltaTime;
         }
 
