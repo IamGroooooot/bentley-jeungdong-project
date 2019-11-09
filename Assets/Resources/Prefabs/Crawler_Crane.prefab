@@ -1353,7 +1353,7 @@ Transform:
   m_GameObject: {fileID: 3000620287092132001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 0.0035, y: 0.0035, z: 0.0035}
+  m_LocalScale: {x: 0.39, y: 0.39, z: 0.39}
   m_Children:
   - {fileID: 8300965680509717273}
   - {fileID: 6518887871367585770}
@@ -1380,7 +1380,7 @@ MonoBehaviour:
   anchorDown: 0
   turnSpeed: 20
   spinSpeed: 10
-  anchorSpeed: 40
+  anchorSpeed: 100
 --- !u!54 &5171475540226205390
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9552,6 +9552,7 @@ GameObject:
   - component: {fileID: 263123191}
   - component: {fileID: 6951026658026573412}
   - component: {fileID: 26926258716511976}
+  - component: {fileID: 928750715}
   m_Layer: 0
   m_Name: Picker
   m_TagString: Picker
@@ -9618,6 +9619,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bcf0ddc9536c3d43b45fa46fdb533f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &928750715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7206039688799830968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0840d15da73e13742bfeab8b726ec98a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProjectedAnchor: {fileID: 0}
 --- !u!1 &7822198393391813053
 GameObject:
   m_ObjectHideFlags: 0

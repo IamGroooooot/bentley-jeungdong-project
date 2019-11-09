@@ -13,6 +13,10 @@ public class UIManager : MonoBehaviour
     public bool showKg = false;
     public bool enableTopView = false;
 
+    public LayerMask defaultMask;
+    public LayerMask kgMask;
+    public LayerMask projectedMask;
+
     private void Awake()
     {
         instance = this;
@@ -47,12 +51,20 @@ public class UIManager : MonoBehaviour
     public void onToggleShowProjectedAnchor()
     {
         showProjectedAnchor = !showProjectedAnchor;
+        if (showProjectedAnchor)
+            CameraViewCtrl.instance.mainCamera.GetComponent<Camera>().cullingMask = projectedMask;
+        else
+            CameraViewCtrl.instance.mainCamera.GetComponent<Camera>().cullingMask = defaultMask;
         Debug.Log(showProjectedAnchor);
     }
 
     public void onToggleShowCircularRange()
     {
         ShowCircularRange = !ShowCircularRange;
+        if(ShowCircularRange)
+            CameraViewCtrl.instance.topCamera.GetComponent<Camera>().cullingMask = kgMask;
+        else
+            CameraViewCtrl.instance.topCamera.GetComponent<Camera>().cullingMask = defaultMask;
         Debug.Log(ShowCircularRange);
     }
 

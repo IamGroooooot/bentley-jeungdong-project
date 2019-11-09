@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AchorControl : MonoBehaviour
+public class AnchorControl : MonoBehaviour
 {
     GameObject myTarget;
     // Start is called before the first frame update
