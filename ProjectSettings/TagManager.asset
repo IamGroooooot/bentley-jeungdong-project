@@ -12,6 +12,7 @@ TagManager:
   - target
   - Setting
   - SettingBtn
+  - CircularRange
   layers:
   - Default
   - TransparentFX

@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class ShootRay : MonoBehaviour
 {
+    public static ShootRay instance;
     public GameObject ProjectedAnchor;
-    
+    public Vector3 projectedPosition;
+    void Awake()
+    {
+        instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +34,7 @@ public class ShootRay : MonoBehaviour
             Debug.DrawRay(transform.position, Vector3.down * hit.distance, Color.yellow);
             ProjectedAnchor.transform.position = hit.point;
             //Debug.Log("Did Hit: "+hit.collider.name);
+            projectedPosition = hit.point;
         }
         else
         {
@@ -35,4 +42,5 @@ public class ShootRay : MonoBehaviour
             Debug.Log("Did not Hit");
         }
     }
+
 }
